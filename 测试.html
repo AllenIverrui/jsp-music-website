@@ -1,0 +1,25 @@
+<style type="text/css">
+    @import url("css样式/top.css");
+    
+    body {
+        background-image: url(imag/topbg.jpeg);
+        background-repeat: repeat-x;
+        margin-left: 100px;
+    }
+    </style>
+<head>
+    <body>
+        <p class="topfont">"<%=judge.substring(0,judge.length()-4)%>"音乐成功找到</p>
+        <audio src="music/想见你.mp3" controls="controls"    preload id="music">
+</audio>
+<br>
+<br>
+<br>
+<a class="topfont">"<%=judge.substring(0,judge.length()-4)%>"mv成功找到</a>
+<br>
+
+      <video width="210" height="210" controls>
+      <source src="mv/想见你.mp4" type="video/mp4">
+      </video>
+    </body>
+</head>

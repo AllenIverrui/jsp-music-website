@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<audio src="music/问情.mp3" controls="controls"    preload id="bg">
+</audio>
+<button onclick="bf(1);"> <img src='music/imag/播放.png' width="20" height="20" /><button>
+<button onclick="bf(2);"> <img src='music/imag/暂停.png' width="20" height="20" /> </button>
+<p>&nbsp; </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<script>
+function bf(type){
+	var audio = document.getElementById('bg');
+	if(audio.paused){
+		if(type!=2)
+			audio.play();
+	}else {
+		if(type!=1)
+		audio.pause();
+	}
+}
+  </script>
+  <video ishivideo="true" autoplay="true" isrotate="true" autoHide="true" controls="controls">
+        <source src="mv/lie.mp4" type="video/mp4">
+    </video>
+  <video src="mv/枕刀歌.mp4" controls="controls" autoplay></video>
+  <video width="320" height="240" controls>
+    <source src="mv/枕刀歌.mp4" type="video/x-ms-asf">
+</video>
+  <embed src="mv/开始.mp4" height="200" width="200" >
+  <a href="mv/枕刀歌.mp4">Play a video file</a>
+</body>
+</html>
