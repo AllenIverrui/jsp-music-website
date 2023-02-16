@@ -1,6 +1,6 @@
-浏览地址 jsp-music.alleniverrrui.top
+网站地址 http://jsp-music.alleniverrrui.top
 
-项目由 jsp 开发，将项目克隆后移动到tomcat服务器中打开
+项目由 jsp 开发，将项目克隆后移动到tomcat服务器中打开运行
 
 ![image-20230215155808273](README.assets/image-20230215155808273-16764480959751.png)
 
